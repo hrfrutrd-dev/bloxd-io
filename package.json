@@ -1,0 +1,15 @@
+{
+  "name": "bloxd-worker-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A host-restricted Cloudflare Worker reverse gateway for Bloxd.io HTTP and WebSocket traffic.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "wrangler dev --ip 0.0.0.0",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  }
+}
